@@ -3,7 +3,7 @@ pragma solidity ^0.4.24;
 import "https://github.com/dappmind/openzeppelin-solidity/contracts/token/ERC20/StandardBurnableToken.sol";
 
 
-contract XYZToken is StandardBurnableToken {
+contract ABXToken is StandardBurnableToken {
 
   string public constant name = "ABEE";
   string public constant symbol = "ABX";
