@@ -9,7 +9,8 @@ contract ABXToken is StandardBurnableToken {
   string public constant symbol = "ABX";
   uint8 public constant decimals = 8;
 
-  uint256 public constant INITIAL_SUPPLY = 3*10**9*10**uint256(decimals);
+  //uint256 public constant INITIAL_SUPPLY = (3*10**9) * 10**uint256(decimals);
+  uint256 public constant INITIAL_SUPPLY = 3*10**9 * 10**uint256(decimals);
 
   /**
    * @dev Constructor that gives msg.sender all of existing tokens.
