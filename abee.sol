@@ -3,10 +3,10 @@ pragma solidity ^0.4.24;
 import "https://github.com/abeefoundationorg/openzeppelin-solidity/contracts/token/ERC20/StandardBurnableToken.sol";
 
 
-contract ABBXToken is StandardBurnableToken {
+contract AXBToken is StandardBurnableToken {
 
   string public constant name = "ABEE Foundation";
-  string public constant symbol = "ABBX";
+  string public constant symbol = "AXB";
   uint8 public constant decimals = 8;
 
   uint256 public constant INITIAL_SUPPLY = 3 * 10**9 * 10**uint256(decimals);
