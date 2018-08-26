@@ -1,6 +1,6 @@
 pragma solidity ^0.4.24;
 
-import "https://github.com/dappmind/openzeppelin-solidity/contracts/token/ERC20/StandardBurnableToken.sol";
+import "https://github.com/abeefoundationorg/openzeppelin-solidity/contracts/token/ERC20/StandardBurnableToken.sol";
 
 
 contract ABXToken is StandardBurnableToken {
